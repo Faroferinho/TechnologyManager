@@ -23,6 +23,7 @@ public class Technology {
     }
 
     public Technology(TechnologyDTO dto){
-
+        id = dto.getId();
+        description = dto.getDescription();
     }
 }
