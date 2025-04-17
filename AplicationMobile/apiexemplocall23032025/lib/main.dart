@@ -34,7 +34,7 @@ class _HomePageState extends State<HomePage> {
   Future<void> fetchPosts() async {
     final response =
         await http.get(
-          Uri.parse('https://app-uniara-eb91fc9ec7bf.herokuapp.com/list'),
+          Uri.parse('localhost:8081/projeto/api/v1/tech'),
           headers: {'Content-Type': 'application/json; charset=utf8'}
           );
 
